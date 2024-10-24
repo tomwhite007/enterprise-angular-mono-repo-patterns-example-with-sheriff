@@ -1,28 +1,28 @@
 {
   "name": "check-in-desktop",
-  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
   "prefix": "app",
-  "sourceRoot": "check-in/check-in-desktop/src",
+  "sourceRoot": "apps/check-in/check-in-desktop/src",
   "tags": [],
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:application",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/check-in/check-in-desktop",
-        "index": "check-in/check-in-desktop/src/index.html",
-        "browser": "check-in/check-in-desktop/src/main.ts",
+        "outputPath": "dist/apps/check-in/check-in-desktop",
+        "index": "apps/check-in/check-in-desktop/src/index.html",
+        "browser": "apps/check-in/check-in-desktop/src/main.ts",
         "polyfills": ["zone.js"],
-        "tsConfig": "check-in/check-in-desktop/tsconfig.app.json",
+        "tsConfig": "apps/check-in/check-in-desktop/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
         "assets": [
           {
             "glob": "**/*",
-            "input": "check-in/check-in-desktop/public"
+            "input": "apps/check-in/check-in-desktop/public"
           }
         ],
-        "styles": ["check-in/check-in-desktop/src/styles.scss"],
+        "styles": ["apps/check-in/check-in-desktop/src/styles.scss"],
         "scripts": []
       },
       "configurations": {
@@ -74,7 +74,7 @@
       "executor": "@nx/jest:jest",
       "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
       "options": {
-        "jestConfig": "check-in/check-in-desktop/jest.config.ts"
+        "jestConfig": "apps/check-in/check-in-desktop/jest.config.ts"
       }
     },
     "serve-static": {
@@ -82,7 +82,7 @@
       "options": {
         "buildTarget": "check-in-desktop:build",
         "port": 4200,
-        "staticFilePath": "dist/check-in/check-in-desktop/browser",
+        "staticFilePath": "dist/apps/check-in/check-in-desktop/browser",
         "spa": true
       }
     }
