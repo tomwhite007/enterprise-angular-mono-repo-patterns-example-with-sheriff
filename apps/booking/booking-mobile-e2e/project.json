@@ -1,8 +1,8 @@
 {
   "name": "booking-mobile-e2e",
-  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
-  "sourceRoot": "booking/booking-mobile-e2e/src",
+  "sourceRoot": "apps/booking/booking-mobile-e2e/src",
   "implicitDependencies": ["booking-mobile"],
   "// targets": "to see all targets run: nx show project booking-mobile-e2e --web",
   "targets": {}
