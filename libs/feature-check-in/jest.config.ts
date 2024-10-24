@@ -1,8 +1,8 @@
 export default {
-  displayName: 'feature-booking',
-  preset: '../../../jest.preset.js',
+  displayName: 'feature-check-in',
+  preset: '../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
-  coverageDirectory: '../../../coverage/libs/booking/feature-booking',
+  coverageDirectory: '../../coverage/libs/feature-check-in',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
       'jest-preset-angular',

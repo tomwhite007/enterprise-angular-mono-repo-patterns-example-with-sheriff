@@ -16,10 +16,10 @@
     "baseUrl": ".",
     "paths": {
       "@enterprise-angular-mono-repo-patterns-example-with-sheriff/feature-booking": [
-        "libs/booking/feature-booking/src/index.ts"
+        "libs/feature-booking/src/index.ts"
       ],
       "@enterprise-angular-mono-repo-patterns-example-with-sheriff/feature-check-in": [
-        "libs/check-in/feature-check-in/src/index.ts"
+        "libs/feature-check-in/src/index.ts"
       ]
     }
   },
