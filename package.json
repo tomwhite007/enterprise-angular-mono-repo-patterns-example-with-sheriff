@@ -2,7 +2,9 @@
   "name": "@enterprise-angular-mono-repo-patterns-example-with-sheriff/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "dep-graph": "npx nx graph"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~18.2.0",
