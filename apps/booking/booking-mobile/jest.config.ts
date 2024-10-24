@@ -1,8 +1,8 @@
 export default {
   displayName: 'booking-mobile',
-  preset: '../../jest.preset.js',
+  preset: '../../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
-  coverageDirectory: '../../coverage/booking/booking-mobile',
+  coverageDirectory: '../../../coverage/apps/booking/booking-mobile',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
       'jest-preset-angular',
