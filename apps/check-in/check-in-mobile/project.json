@@ -1,28 +1,28 @@
 {
   "name": "check-in-mobile",
-  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
   "prefix": "app",
-  "sourceRoot": "check-in/check-in-mobile/src",
+  "sourceRoot": "apps/check-in/check-in-mobile/src",
   "tags": [],
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:application",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/check-in/check-in-mobile",
-        "index": "check-in/check-in-mobile/src/index.html",
-        "browser": "check-in/check-in-mobile/src/main.ts",
+        "outputPath": "dist/apps/check-in/check-in-mobile",
+        "index": "apps/check-in/check-in-mobile/src/index.html",
+        "browser": "apps/check-in/check-in-mobile/src/main.ts",
         "polyfills": ["zone.js"],
-        "tsConfig": "check-in/check-in-mobile/tsconfig.app.json",
+        "tsConfig": "apps/check-in/check-in-mobile/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
         "assets": [
           {
             "glob": "**/*",
-            "input": "check-in/check-in-mobile/public"
+            "input": "apps/check-in/check-in-mobile/public"
           }
         ],
-        "styles": ["check-in/check-in-mobile/src/styles.scss"],
+        "styles": ["apps/check-in/check-in-mobile/src/styles.scss"],
         "scripts": []
       },
       "configurations": {
@@ -74,7 +74,7 @@
       "executor": "@nx/jest:jest",
       "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
       "options": {
-        "jestConfig": "check-in/check-in-mobile/jest.config.ts"
+        "jestConfig": "apps/check-in/check-in-mobile/jest.config.ts"
       }
     },
     "serve-static": {
@@ -82,7 +82,7 @@
       "options": {
         "buildTarget": "check-in-mobile:build",
         "port": 4200,
-        "staticFilePath": "dist/check-in/check-in-mobile/browser",
+        "staticFilePath": "dist/apps/check-in/check-in-mobile/browser",
         "spa": true
       }
     }

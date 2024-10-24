@@ -1,8 +1,8 @@
 export default {
   displayName: 'check-in-mobile',
-  preset: '../../jest.preset.js',
+  preset: '../../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
-  coverageDirectory: '../../coverage/check-in/check-in-mobile',
+  coverageDirectory: '../../../coverage/apps/check-in/check-in-mobile',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
       'jest-preset-angular',
