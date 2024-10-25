@@ -3,6 +3,10 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
+    "booking-desktop:serve": "nx run booking-desktop:serve:development",
+    "booking-mobile:serve": "nx run booking-mobile:serve:development",
+    "check-in-desktop:serve": "nx run check-in-desktop:serve:development",
+    "check-in-mobile:serve": "nx run check-in-mobile:serve:development",
     "dep-graph": "npx nx graph"
   },
   "private": true,

@@ -15,12 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@enterprise-angular-mono-repo-patterns-example-with-sheriff/feature-booking": [
-        "libs/feature-booking/src/index.ts"
-      ],
-      "@enterprise-angular-mono-repo-patterns-example-with-sheriff/feature-check-in": [
-        "libs/feature-check-in/src/index.ts"
-      ]
+      "@feature-booking/*": ["libs/feature-booking/src/*"],
+      "@feature-check-in/*": ["libs/feature-check-in/src/*"]
     }
   },
   "exclude": ["node_modules", "tmp"]
