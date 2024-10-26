@@ -7,6 +7,7 @@
     "booking-mobile:serve": "nx run booking-mobile:serve:development",
     "check-in-desktop:serve": "nx run check-in-desktop:serve:development",
     "check-in-mobile:serve": "nx run check-in-mobile:serve:development",
+    "check-in-mobile:sheriff": "npx sheriff verify apps/check-in/check-in-mobile/src/main.ts",
     "dep-graph": "npx nx graph"
   },
   "private": true,

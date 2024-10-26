@@ -1,4 +1,5 @@
 const nx = require('@nx/eslint-plugin');
+const sheriff = require('@softarc/eslint-plugin-sheriff');
 
 module.exports = [
   ...nx.configs['flat/base'],
@@ -29,5 +30,9 @@ module.exports = [
     files: ['**/*.ts', '**/*.tsx', '**/*.js', '**/*.jsx'],
     // Override or add rules here
     rules: {},
+  },
+  {
+    files: ['**/*.ts'],
+    extends: [sheriff.configs.all],
   },
 ];
