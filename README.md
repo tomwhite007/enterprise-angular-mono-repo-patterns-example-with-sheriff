@@ -1,4 +1,4 @@
-# EnterpriseAngularMonoRepoPatternsExampleWithSheriff
+# Enterprise Angular Mono Repo Patterns Example with Sheriff
 
 A demo repo to try out Barrel-less Module Boundaries in Nrwl Nx using [Sheriff](https://softarc-consulting.github.io/sheriff/)
 
