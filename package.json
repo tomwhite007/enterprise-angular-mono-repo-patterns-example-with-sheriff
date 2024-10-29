@@ -8,7 +8,8 @@
     "check-in-desktop:serve": "nx run check-in-desktop:serve:development",
     "check-in-mobile:serve": "nx run check-in-mobile:serve:development",
     "check-in-mobile:sheriff": "npx sheriff verify apps/check-in/check-in-mobile/src/main.ts",
-    "dep-graph": "npx nx graph"
+    "dep-graph-all": "npx nx graph",
+    "lint-all": "npx nx run-many --target=lint"
   },
   "private": true,
   "dependencies": {
