@@ -7,7 +7,9 @@
     "booking-mobile:serve": "nx run booking-mobile:serve:development",
     "check-in-desktop:serve": "nx run check-in-desktop:serve:development",
     "check-in-mobile:serve": "nx run check-in-mobile:serve:development",
-    "dep-graph": "npx nx graph"
+    "check-in-mobile:sheriff": "npx sheriff verify apps/check-in/check-in-mobile/src/main.ts",
+    "dep-graph-all": "npx nx graph",
+    "lint-all": "npx nx run-many --target=lint"
   },
   "private": true,
   "dependencies": {
