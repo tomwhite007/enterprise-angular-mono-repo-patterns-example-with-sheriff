@@ -8,4 +8,11 @@ export const checkInRoutes: Route[] = [
         (m) => m.FeatureCheckInComponent
       ),
   },
+  {
+    path: 'seatmap',
+    loadChildren: () =>
+      import('@shared-feature-seatmap/seatmap-routes').then(
+        (m) => m.seatmapRoutes
+      ),
+  },
 ];

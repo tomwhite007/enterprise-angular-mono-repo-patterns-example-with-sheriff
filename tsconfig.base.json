@@ -15,9 +15,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@shared-data/*": ["libs/shared/data/src/*"],
       "@feature-booking/*": ["libs/feature-booking/src/*"],
-      "@feature-check-in/*": ["libs/feature-check-in/src/*"]
+      "@feature-check-in/*": ["libs/feature-check-in/src/*"],
+      "@shared-data/*": ["libs/shared/data/src/*"],
+      "@shared-feature-seatmap/*": ["libs/shared/seatmap/feature-seatmap/src/*"]
     }
   },
   "exclude": ["node_modules", "tmp"]
