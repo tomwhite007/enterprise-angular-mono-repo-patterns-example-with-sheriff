@@ -1,7 +1,7 @@
 {
   "name": "data",
   "$schema": "../../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "libs/shared/data/src",
+  "sourceRoot": "libs/shared/data-shared/src",
   "prefix": "lib",
   "projectType": "library",
   "tags": [],
@@ -10,7 +10,7 @@
       "executor": "@nx/jest:jest",
       "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
       "options": {
-        "jestConfig": "libs/shared/data/jest.config.ts"
+        "jestConfig": "libs/shared/data-shared/jest.config.ts"
       }
     },
     "lint": {
