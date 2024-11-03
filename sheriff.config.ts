@@ -7,6 +7,14 @@ export const config: SheriffConfig = {
       'domain:booking',
       'type:data',
     ],
+    'libs/feature-booking/src/internal/feature-flight-search': [
+      'domain:booking',
+      'type:feature',
+    ],
+    'libs/feature-booking/src/internal/feature-passenger-info': [
+      'domain:booking',
+      'type:feature',
+    ],
     'libs/feature-check-in/src': ['domain:check-in', 'type:feature'],
     'libs/feature-check-in/src/internal/data-check-in': [
       'domain:check-in',
@@ -14,6 +22,10 @@ export const config: SheriffConfig = {
     ],
     'libs/shared/data-shared/src': ['domain:shared', 'type:data'],
     'libs/shared/seatmap/data-seatmap/src': ['domain:shared', 'type:data'],
+    'libs/shared/seatmap/feature-seat-listing/src': [
+      'domain:shared',
+      'type:feature',
+    ],
     'libs/shared/seatmap/feature-seatmap/src': [
       'domain:shared',
       'type:feature',
@@ -25,7 +37,7 @@ export const config: SheriffConfig = {
     'type:ui': ['type:ui', 'type:util'],
     'type:data': ['type:data', 'type:util'],
     'type:util': 'type:util',
-    root: 'type:feature', // so apps can import their shell feature
+    root: 'type:feature', // (domain wildcard) so apps can import their shell feature
   },
   enableBarrelLess: true,
 };

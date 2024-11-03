@@ -9,10 +9,24 @@ export const bookingRoutes: Route[] = [
       ),
   },
   {
-    path: 'seatmap',
+    path: 'flight-search',
+    loadComponent: () =>
+      import(
+        './internal/feature-flight-search/feature-flight-search.component'
+      ).then((m) => m.FeatureFlightSearchComponent),
+  },
+  {
+    path: 'passenger-info',
+    loadComponent: () =>
+      import(
+        './internal/feature-passenger-info/feature-passenger-info.component'
+      ).then((m) => m.FeaturePassengerInfoComponent),
+  },
+  {
+    path: 'seat-listing',
     loadChildren: () =>
-      import('@shared-feature-seatmap/seatmap-routes').then(
-        (m) => m.seatmapRoutes
+      import('@shared-feature-seat-listing/seat-listing-routes').then(
+        (m) => m.seatListingRoutes
       ),
   },
 ];

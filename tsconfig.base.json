@@ -19,6 +19,9 @@
       "@feature-check-in/*": ["libs/feature-check-in/src/*"],
       "@shared-data-seatmap/*": ["libs/shared/seatmap/data-seatmap/src/*"],
       "@shared-data/*": ["libs/shared/data-shared/src/*"],
+      "@shared-feature-seat-listing/*": [
+        "libs/shared/seatmap/feature-seat-listing/src/*"
+      ],
       "@shared-feature-seatmap/*": ["libs/shared/seatmap/feature-seatmap/src/*"]
     }
   },
