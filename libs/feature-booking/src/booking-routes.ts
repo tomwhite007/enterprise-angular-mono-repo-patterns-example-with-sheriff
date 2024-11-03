@@ -4,8 +4,15 @@ export const bookingRoutes: Route[] = [
   {
     path: '',
     loadComponent: () =>
-      import('./lib/feature-booking/feature-booking.component').then(
+      import('./internal/feature-booking/feature-booking.component').then(
         (m) => m.FeatureBookingComponent
+      ),
+  },
+  {
+    path: 'seatmap',
+    loadChildren: () =>
+      import('@shared-feature-seatmap/seatmap-routes').then(
+        (m) => m.seatmapRoutes
       ),
   },
 ];

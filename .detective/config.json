@@ -2,12 +2,12 @@
   "scopes": [
     "apps/booking/booking-desktop",
     "apps/booking/booking-mobile",
+    "libs/shared/data",
     "apps/check-in/check-in-desktop",
     "apps/check-in/check-in-mobile",
-    "libs/feature-booking",
-    "libs/shared/data",
     "libs/shared/seatmap/data-seatmap",
     "libs/shared/seatmap/feature-seatmap",
+    "libs/feature-booking",
     "libs/feature-check-in"
   ],
   "groups": [
