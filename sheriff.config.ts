@@ -4,6 +4,10 @@ export const config: SheriffConfig = {
   modules: {
     'libs/feature-booking/src': ['domain:booking', 'type:feature'],
     'libs/feature-check-in/src': ['domain:check-in', 'type:feature'],
+    'libs/feature-check-in/src/internal/data-check-in': [
+      'domain:check-in',
+      'type:data',
+    ],
   },
   depRules: {
     'domain:*': [sameTag, 'shared'],
