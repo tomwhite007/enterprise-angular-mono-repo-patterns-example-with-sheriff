@@ -5,13 +5,16 @@
     "apps/check-in/check-in-desktop",
     "apps/check-in/check-in-mobile",
     "libs/feature-booking",
-    "libs/feature-check-in",
-    "libs/shared/data"
+    "libs/shared/data",
+    "libs/shared/seatmap/data-seatmap",
+    "libs/shared/seatmap/feature-seatmap",
+    "libs/feature-check-in"
   ],
   "groups": [
     "apps/booking",
     "apps/check-in",
     "apps",
+    "libs/shared/seatmap",
     "libs/shared",
     "libs"
   ],

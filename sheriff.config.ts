@@ -9,6 +9,7 @@ export const config: SheriffConfig = {
       'type:data',
     ],
     'libs/shared/data/src': ['domain:shared', 'type:data'],
+    'libs/shared/seatmap/data-seatmap/src': ['domain:shared', 'type:data'],
     'libs/shared/seatmap/feature-seatmap/src': [
       'domain:shared',
       'type:feature',

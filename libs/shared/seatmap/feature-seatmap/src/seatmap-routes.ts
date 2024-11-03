@@ -1,4 +1,5 @@
 import { Route } from '@angular/router';
+import { SeatmapStore } from '@shared-data-seatmap/seatmap-store';
 
 export const seatmapRoutes: Route[] = [
   {
@@ -7,5 +8,6 @@ export const seatmapRoutes: Route[] = [
       import('./internal/feature-seatmap/feature-seatmap.component').then(
         (m) => m.FeatureSeatmapComponent
       ),
+    providers: [SeatmapStore],
   },
 ];

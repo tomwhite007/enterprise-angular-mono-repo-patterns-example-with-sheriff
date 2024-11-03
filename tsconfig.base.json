@@ -18,6 +18,7 @@
       "@feature-booking/*": ["libs/feature-booking/src/*"],
       "@feature-check-in/*": ["libs/feature-check-in/src/*"],
       "@shared-data/*": ["libs/shared/data/src/*"],
+      "@shared-data-seatmap/*": ["libs/shared/seatmap/data-seatmap/src/*"],
       "@shared-feature-seatmap/*": ["libs/shared/seatmap/feature-seatmap/src/*"]
     }
   },
