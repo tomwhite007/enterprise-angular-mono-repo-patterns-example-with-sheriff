@@ -8,9 +8,10 @@ export const config: SheriffConfig = {
       'domain:check-in',
       'type:data',
     ],
+    'libs/shared/data/src': ['domain:shared', 'type:data'],
   },
   depRules: {
-    'domain:*': [sameTag, 'shared'],
+    'domain:*': [sameTag, 'domain:shared'],
     'type:feature': ['type:feature', 'type:ui', 'type:data', 'type:util'],
     'type:ui': ['type:ui', 'type:util'],
     'type:data': ['type:data', 'type:util'],
