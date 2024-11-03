@@ -3,12 +3,16 @@ import { sameTag, SheriffConfig } from '@softarc/sheriff-core';
 export const config: SheriffConfig = {
   modules: {
     'libs/feature-booking/src': ['domain:booking', 'type:feature'],
+    'libs/feature-booking/src/internal/data-booking/booking-store': [
+      'domain:booking',
+      'type:data',
+    ],
     'libs/feature-check-in/src': ['domain:check-in', 'type:feature'],
     'libs/feature-check-in/src/internal/data-check-in': [
       'domain:check-in',
       'type:data',
     ],
-    'libs/shared/data/src': ['domain:shared', 'type:data'],
+    'libs/shared/data-shared/src': ['domain:shared', 'type:data'],
     'libs/shared/seatmap/data-seatmap/src': ['domain:shared', 'type:data'],
     'libs/shared/seatmap/feature-seatmap/src': [
       'domain:shared',
