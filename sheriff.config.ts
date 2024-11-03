@@ -11,7 +11,7 @@ export const config: SheriffConfig = {
     'type:ui': ['type:ui', 'type:util'],
     'type:data': ['type:data', 'type:util'],
     'type:util': 'type:util',
-    root: 'type:feature',
+    root: 'type:feature', // so apps can import their shell feature
   },
   enableBarrelLess: true,
 };

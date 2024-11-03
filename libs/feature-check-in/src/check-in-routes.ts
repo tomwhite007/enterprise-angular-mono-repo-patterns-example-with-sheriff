@@ -4,7 +4,7 @@ export const checkInRoutes: Route[] = [
   {
     path: '',
     loadComponent: () =>
-      import('./lib/feature-check-in/feature-check-in.component').then(
+      import('./internal/feature-check-in/feature-check-in.component').then(
         (m) => m.FeatureCheckInComponent
       ),
   },
