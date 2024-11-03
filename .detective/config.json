@@ -1,0 +1,34 @@
+{
+  "scopes": [
+    "apps/booking/booking-desktop",
+    "apps/booking/booking-mobile",
+    "apps/check-in/check-in-desktop",
+    "apps/check-in/check-in-mobile",
+    "libs/feature-booking",
+    "libs/feature-check-in",
+    "libs/shared/data"
+  ],
+  "groups": [
+    "apps/booking",
+    "apps/check-in",
+    "apps",
+    "libs/shared",
+    "libs"
+  ],
+  "entries": [],
+  "filter": {
+    "files": [],
+    "logs": []
+  },
+  "aliases": {},
+  "teams": {
+    "example-team-a": [
+      "John Doe",
+      "Jane Doe"
+    ],
+    "example-team-b": [
+      "Max Muster",
+      "Susi Sorglos"
+    ]
+  }
+}
