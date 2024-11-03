@@ -8,9 +8,4 @@ export const checkInRoutes: Route[] = [
         (m) => m.FeatureCheckInComponent
       ),
   },
-  {
-    path: 'test',
-    loadChildren: () =>
-      import('@feature-booking/booking-routes').then((m) => m.bookingRoutes),
-  },
 ];
