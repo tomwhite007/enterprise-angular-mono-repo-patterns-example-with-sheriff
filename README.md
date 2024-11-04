@@ -2,7 +2,7 @@
 
 A demo reference project using Barrel-less Module Boundaries in Nrwl Nx with [Sheriff](https://softarc-consulting.github.io/sheriff/)
 
-This project is a replica of [enterprise-angular-mono-repo-patterns-example](https://github.com/tomwhite007/enterprise-angular-mono-repo-patterns-example) repo, but with a simplified file structure by using Sheriff. In order to reduce the amount of libraries that Enterprise Angular Mono Repo Patterns requires, Sheriff allows the grouping of singular-dependency libs to be brought into a common hybrid feature lib, like the example diagram below:
+This project is a replica of [enterprise-angular-mono-repo-patterns-example](https://github.com/tomwhite007/enterprise-angular-mono-repo-patterns-example) repo, but with a simplified file structure by using Sheriff. In order to reduce the amount of libraries that Enterprise Angular Mono Repo Patterns requires, Sheriff allows the grouping of feature libs and their single-dependency sub-module libs to be brought into a common hybrid feature lib, like the example diagram below:
 
 ![Enterprise Angular Mono Repo Patterns with hybrid feature libs](readme-assets/eamp-sheriff-demo-diagram.png 'Hybrid feature libs')
 
