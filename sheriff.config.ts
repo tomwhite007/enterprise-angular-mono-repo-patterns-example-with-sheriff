@@ -1,6 +1,7 @@
 import { sameTag, SheriffConfig } from '@softarc/sheriff-core';
 
 export const config: SheriffConfig = {
+  entryFile: 'apps/check-in/check-in-mobile/src/main.ts',
   modules: {
     'libs/feature-booking/src': ['domain:booking', 'type:feature'],
     'libs/feature-booking/src/internal/data-booking/booking-store': [
