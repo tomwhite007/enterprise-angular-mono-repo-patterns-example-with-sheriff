@@ -1,17 +1,19 @@
 {
   "scopes": [
-    "libs/shared/data-shared",
-    "apps/check-in/check-in-mobile",
-    "apps/check-in/check-in-desktop",
-    "apps/booking/booking-mobile",
     "apps/booking/booking-desktop",
-    "libs/feature-booking/src/internal/data-booking",
-    "libs/feature-booking/src/internal/feature-booking",
-    "libs/feature-check-in/src/internal/data-check-in",
-    "libs/feature-check-in/src/internal/feature-check-in",
+    "apps/booking/booking-mobile",
+    "apps/check-in/check-in-desktop",
+    "apps/check-in/check-in-mobile",
+    "libs/shared/data-shared",
     "libs/shared/seatmap/data-seatmap",
     "libs/shared/seatmap/feature-seat-listing",
-    "libs/shared/seatmap/feature-seatmap"
+    "libs/shared/seatmap/feature-seatmap",
+    "libs/feature-booking/src/internal/data-booking",
+    "libs/feature-booking/src/internal/feature-booking",
+    "libs/feature-booking/src/internal/feature-flight-search",
+    "libs/feature-booking/src/internal/feature-passenger-info",
+    "libs/feature-check-in/src/internal/data-check-in",
+    "libs/feature-check-in/src/internal/feature-check-in"
   ],
   "groups": [
     "apps/booking",

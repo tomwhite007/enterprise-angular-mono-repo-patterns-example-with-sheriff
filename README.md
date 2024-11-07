@@ -10,6 +10,6 @@ The diagram above was originally generated using [nx graph](https://nx.dev/nx-ap
 
 Run `npx detective` on this project to see the result.
 
-At the moment, Detective is unable to show the containing-lib-to-child sub-module linkages at the same time as the outer lib connections. I'm preparing to document and raise an issue on this, then I'll update this readme.
+At the moment, Detective is unable to show the containing-lib-to-child sub-module linkages at the same time as the outer lib connections. I've raised an [issue about this](https://github.com/angular-architects/detective/issues/35) and hope to report here on how to address it later.
 
-Sheriff and Detective facilitate a pragmatic, modularised architecture that can still take advantage of Nx caching and [affected](https://nx.dev/nx-api/nx/documents/affected) commands whilst reducing the volume of libs that Enterprise Angular Mono Repo Patterns requires.
+Sheriff and Detective are clearly the way forward for mid-tier enterprise modularised Angular mono repos. They allow a pragmatic, modularised architecture that can still take advantage of Nx caching and [affected](https://nx.dev/nx-api/nx/documents/affected) commands whilst reducing the volume of libs that Enterprise Angular Mono Repo Patterns requires.
